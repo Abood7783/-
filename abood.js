@@ -179,6 +179,34 @@ setInterval(function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(`<style>
 .room.borderg.hand.nosel.fl.ri1scui57fs img.fl.u-pic {
 display: none;
