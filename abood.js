@@ -203,10 +203,6 @@ setInterval(function () {
 
 
 
-
-
-
-
 $(`<style>
 .room.borderg.hand.nosel.fl.ri1scui57fs img.fl.u-pic {
 display: none;
@@ -300,7 +296,7 @@ background-image: url(https://up6.cc/2023/01/16738239819832.gif);
 color: transparent !important;
 background-size: 100% 100%;
 margin-top: -5px;}`);
-$(`<style>#mic.tiir-baht3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #e18b18 0%, #000 29%, #cc8321 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
+$(`<style>#mic.tiir-abood3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #e18b18 0%, #000 29%, #cc8321 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
     to {
         --angle: 360deg;
     }
@@ -311,27 +307,27 @@ $(`<style>#mic.tiir-baht3 .mic {border: 2px solid;border-image: linear-gradient(
     inherits: false;
 }</style>`).insertBefore('body');
 $("style").last().append(`
-#users.tiir-baht1 .inroom.uzr {
+#users.tiir-abood1 .inroom.uzr {
   border-radius: 10px 0px 10px 0px;
   background-size: cover;
 }
-#d0.tiir-baht1 .label-primary {
+#d0.tiir-abood1 .label-primary {
   border: 1px solid #ADD8e6 !important;
   border-radius: 10px 0px 10px 0px !important;
 }
-#room.tiir-baht1 .btn-primary {
+#room.tiir-abood1 .btn-primary {
   border: 1px solid #ADD8e6 !important;
   border-radius: 10px 0px 10px 0px !important;
 }
 
-#users.tiir-baht1 .inroom.uzr img.ustat {
+#users.tiir-abood1 .inroom.uzr img.ustat {
   width: 5px !important;
   border-radius: 10px 0px 15px 0px;
   height: 5px;
   margin-top: -1px;
   min-height: 0% !important;
 }
-#users.tiir-baht1 .inroom.uzr .fitimg.u-pic {
+#users.tiir-abood1 .inroom.uzr .fitimg.u-pic {
   border-radius: 10px 0px 10px 0px;
 margin-top: 0px;
 z-index: 0;
@@ -341,43 +337,43 @@ width: 50px;
 min-height: 48px;
 max-height: 50px;
 }
-#d2.tiir-baht2 .uzr .fitimg.u-pic{
+#d2.tiir-abood2 .uzr .fitimg.u-pic{
 border:1px solid #ADD8e6;
 margin-top:2px;
 border-radius: 10px 0px 10px 0px;
 box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #add8e6;}
-#users.tiir-baht1 .inroom.uzr .u-msg{
+#users.tiir-abood1 .inroom.uzr .u-msg{
 -webkit-text-fill-color: #555;
 }
-#users.tiir-baht1 .inroom.uzr span.uhash{
+#users.tiir-abood1 .inroom.uzr span.uhash{
 text-transform:uppercase;
 background-image: linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#add8e6 67%,#996013 100%);
 background-size:220% auto;
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;animation:2s linear infinite textclip;
-display:inline-block}#users.tiir-baht1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
-#d2.tiir-baht2 .uzr.d-flex.mm{
+display:inline-block}#users.tiir-abood1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
+#d2.tiir-abood2 .uzr.d-flex.mm{
 border-radius: 10px 0px 10px 0px;
 border:1px solid #fffefe;
 border-bottom:1px solid #fffefe}
 `);
 
 
-var r_tiirbaht = false;
+var r_tiirabood = false;
 setInterval(function () {
     if (myroom == 'i1scui57fs') {
-        if (r_tiirbaht == false) {
-            r_tiirbaht = true;
-            $('#users').addClass('tiir-baht');
-            $('#d2').addClass('tiir-baht2');
-            $('#mic').addClass('tiir-baht3');
+        if (r_tiirabood == false) {
+            r_tiirabood = true;
+            $('#users').addClass('tiir-abood');
+            $('#d2').addClass('tiir-abood2');
+            $('#mic').addClass('tiir-abood3');
         }
     } else {
-        if (r_tiirbaht == true) {
-            r_tiirbaht = false;
-            $("#users").removeClass('tiir-baht1');
-            $("#d2").removeClass('tiir-baht2');
-            $('#mic').removeClass('tiir-baht3');
+        if (r_tiirabood == true) {
+            r_tiirabood = false;
+            $("#users").removeClass('tiir-abood1');
+            $("#d2").removeClass('tiir-abood2');
+            $('#mic').removeClass('tiir-abood3');
         } 
     } 
 }, 10);
